@@ -1,0 +1,86 @@
+.App {
+  -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+            -moz-user-select: none; /* Old versions of Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+.title_text{
+  text-align: center;
+}
+
+.note{
+  padding-right: 70px;
+  width: 200px;
+}
+.note_opt{
+  display: flex;
+  align-items: center;
+}
+
+.note_opt > h3{
+  margin-left: 10px;
+}
+
+.visualizer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.options{
+  max-width: 250px;
+  padding-left: 50px;
+}
+
+.opt{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+}
+.opt > h3{
+  margin-right: 10px;
+}
+
+
+.statistics{
+  font-size: 20px;
+}
+.stat{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.algo_title{
+  min-width: 120px;
+}
+.algo_title > h3{
+  margin-top: 0;
+  margin-right: 10px;
+}
+.number{
+  display: flex;
+  flex-direction: column;
+}
+.visited-number{
+  color: crimson;
+  font-weight: 450;
+}
+.path-number{
+  color: rgb(96, 197, 96);
+  font-weight: 450;
+}
+
+#go_build_walls{
+  color: rgb(30, 214, 30);
+  font-size: 20px;
+}
+#stop_build_walls{
+  color: red;
+  font-size: 20px;
+}
+#build_single_wall{
+  color: rgb(148, 1, 148);
+}
